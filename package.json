@@ -1,0 +1,23 @@
+{
+  "name": "growde",
+  "description": "Node server queries sources and growls",
+  "version": "0.0.1",
+  "keywords": ["growl", "node", "notifications", "trac", "bitbucket"],
+  "homepage": "https://github.com/stefanw/growde/",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/stefanw/growde.git"
+  },
+  "author": "Stefan Wehrmeyer <mail@stefanwehrmeyer.com> (http://stefanwehrmeyer.com)",
+  "main": "./main",
+  "directories": {
+    "lib": "lib"
+  },
+  "engines": {
+    "node": ">=0.4.1"
+  },
+  "dependencies": {
+     "request"   : ">=1.0.0"
+     "node-xml"   : ">=1.0.0"
+  }
+}

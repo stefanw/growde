@@ -1,0 +1,33 @@
+{"plugins": [
+    {"id": "bitbucket"
+    ,"name": "BitBucket NAME"
+    ,"growlOptions": {
+        "image": "./icons/bitbucket.png"
+    }
+    ,"module": "./lib/bitbucket"
+    ,"interval": 60000
+    ,"config": {
+        "url": "http://bitbucket.org"
+        }
+    },
+    {"id": "trac"
+    ,"name": "Trac NAME"
+    ,"growlOptions": {
+        "image": "./icons/trac.png"
+    }
+    ,"module": "./lib/trac"
+    ,"interval": 60000
+    ,"config": {
+        "url": "http://trac.url"
+        }
+    }
+  ],
+  "persistence": "persistence.json"
+  ,"listeners": [
+    {"type": "local"},
+    {"type": "remote"
+     ,"host": "127.0.0.1"
+     ,"password": "mygrowl"
+    }
+  ]
+}
