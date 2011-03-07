@@ -1,7 +1,7 @@
 growde
 ======
 
-growde is a nodejs server that uses a configuration of plugins to fetch notifications from sources (Bitbucket commits and Trac feed plugins are included) and distribute them via growl notifications.
+growde is a nodejs server that uses a configuration of plugins to fetch notifications from sources (Bitbucket commits, Trac feed and MediaWiki feed plugins are included) and distribute them via growl notifications.
 
 1. make sure you have the growlnotify commandline tool
 2. copy config.example.json to config.json
@@ -34,7 +34,7 @@ Filename of persistence store json file.
 Icons
 -----
 
-The projects contains tiny [Trac](http://trac.edgewall.org/) and [Bitbucket](https://bitbucket.org) icons that are used for the Growl notifications. The copyright of these icons is probably with Edgewall Software and [Atlassian](http://www.atlassian.com/) respectively.
+The projects contains tiny [Trac](http://trac.edgewall.org/), [Bitbucket](https://bitbucket.org), [MediaWiki](http://www.mediawiki.org/wiki/MediaWiki) icons that are used for the Growl notifications. The copyright of these icons is probably with Edgewall Software, [Atlassian](http://www.atlassian.com/) and the [WikiMedia Foundation](http://wikimediafoundation.org/wiki/Home) respectively.
 
 License
 -------
